@@ -1,54 +1,54 @@
-🍽️ Flavors & Fork
+# 🍽️ Flavors & Fork
 A modern, responsive restaurant management website featuring dynamic menu ordering, cart logic, and a smart reservation system.
 
-Live Demo: https://flavors-and-fork.vercel.app/index.html
+* Live Demo: https://flavors-and-fork.vercel.app/index.html
 
-Tech Stack: HTML5, CSS3, JavaScript (ES6+), Bootstrap 5
+* Tech Stack: HTML5, CSS3, JavaScript (ES6+), Bootstrap 5
 
-✨ Key Features
-🏠 Interactive UI
+## ✨ Key Features
+* Interactive UI
 
-Hero Section: Parallax effect with dark gradient overlay for readability.
+* Hero Section: Parallax effect with dark gradient overlay for readability.
 
-Smart Status: "Open Now" badge updates in real-time based on operating hours (10 AM - 11 PM).
+* Smart Status: "Open Now" badge updates in real-time based on operating hours (10 AM - 11 PM).
 
-Dark Mode: System-wide theme toggle persisted via LocalStorage.
+* Dark Mode: System-wide theme toggle persisted via LocalStorage.
 
-🍔 Dynamic Menu & Cart
+## 🍔 Dynamic Menu & Cart
 
-State Management: Global cart array handles items and quantities in real-time.
+* State Management: Global cart array handles items and quantities in real-time.
 
-Reactive Buttons: "Add to Order" instantly swaps to [ - ] 1 [ + ] counters.
+* Reactive Buttons: "Add to Order" instantly swaps to [ - ] 1 [ + ] counters.
 
-Live Bill: Subtotal, Tax (5%), and Grand Total update automatically.
+* Live Bill: Subtotal, Tax (5%), and Grand Total update automatically.
 
-Favorites: Users can "Heart" items to save them permanently.
+* Favorites: Users can "Heart" items to save them permanently.
 
-📅 Reservation System
+## 📅 Reservation System
 
-Visual Grid: Interactive floor plan built with CSS Grid.
+* Visual Grid: Interactive floor plan built with CSS Grid.
 
-Date-Specific Logic: Prevents double-booking by storing data as { "YYYY-MM-DD": [TableIDs] }.
+* Date-Specific Logic: Prevents double-booking by storing data as { "YYYY-MM-DD": [TableIDs] }.
 
-Persistence: All reservations are saved in the browser's LocalStorage.
+* Persistence: All reservations are saved in the browser's LocalStorage.
 
-💳 Checkout Simulation
+## 💳 Checkout Simulation
 
-Payment Flow: Modal summary with simulated network delay (setTimeout) and random transaction ID generation.
+* Payment Flow: Modal summary with simulated network delay (setTimeout) and random transaction ID generation.
 
-🛠️ Setup & Usage
-Clone the repo:
+## 🛠️ Setup & Usage
+* Clone the repo:
 
 Bash
-git clone https://github.com/your-username/flavors-and-fork.git
-Run: Open index.html in your browser.
+- git clone https://github.com/your-username/flavors-and-fork.git
+* Run: Open index.html in your browser.
 
 📂 Project Structure
-index.html - Landing page (Hero, Features, Map).
+* index.html - Landing page (Hero, Features, Map).
 
-menu.html - Menu, Filtering, and Cart logic.
+* menu.html - Menu, Filtering, and Cart logic.
 
-reservation.html - Table booking interface.
+* reservation.html - Table booking interface.
 
 js/main.js - Core logic (Cart state, Validation, LocalStorage).
 
