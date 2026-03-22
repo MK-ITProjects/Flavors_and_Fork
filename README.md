@@ -36,13 +36,6 @@ A modern, responsive restaurant management website featuring dynamic menu orderi
 
 * Payment Flow: Modal summary with simulated network delay (setTimeout) and random transaction ID generation.
 
-## 🛠️ Setup & Usage
-* Clone the repo:
-
-Bash
-- git clone https://github.com/your-username/flavors-and-fork.git
-* Run: Open index.html in your browser.
-
 📂 Project Structure
 * index.html - Landing page (Hero, Features, Map).
 
